@@ -3,12 +3,8 @@ package com.heeju.service;
 import com.heeju.model.Recipe;
 import com.heeju.model.User;
 import com.heeju.repository.RecipeRepository;
-import org.hibernate.annotations.NotFound;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.crossstore.ChangeSetPersister;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.Optional;

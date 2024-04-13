@@ -7,11 +7,11 @@ import java.util.List;
 import java.util.Optional;
 
 public interface RecipeService {
-    public Recipe createRecipe(Recipe recipe, User user);
-    public Optional<Recipe> findRecipeById(Long id) throws Exception;
-    public void deleteRecipe(Long id) throws Exception;
-    public Recipe updateRecipe(Recipe recipe, Long id) throws Exception;
-    public List<Recipe> findAllRecipe();
-    public Recipe likeRecipe(Long recipeId, User user) throws Exception;
+    Recipe createRecipe(Recipe recipe, User user);
+    Optional<Recipe> findRecipeById(Long id) throws Exception;
+    void deleteRecipe(Long id) throws Exception;
+    Recipe updateRecipe(Recipe recipe, Long id) throws Exception;
+    List<Recipe> findAllRecipe();
+    Recipe likeRecipe(Long recipeId, User user) throws Exception;
 
 }

@@ -4,7 +4,6 @@ import com.heeju.model.Recipe;
 import com.heeju.model.User;
 import com.heeju.service.RecipeService;
 import com.heeju.service.UserService;
-import com.heeju.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
